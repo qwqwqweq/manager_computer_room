@@ -1,4 +1,6 @@
 #include "manager.hpp"
+#include <fstream>
+#include "global_file.hpp"
 
 Manager::Manager() {
 
