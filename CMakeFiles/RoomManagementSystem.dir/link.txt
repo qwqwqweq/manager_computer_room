@@ -1,0 +1,3 @@
+D:\Software\install\cmake\bin\cmake.exe -E rm -f CMakeFiles\RoomManagementSystem.dir/objects.a
+E:\mingw64\bin\ar.exe qc CMakeFiles\RoomManagementSystem.dir/objects.a @CMakeFiles\RoomManagementSystem.dir\objects1.rsp
+E:\mingw64\bin\g++.exe -Wl,--whole-archive CMakeFiles\RoomManagementSystem.dir/objects.a -Wl,--no-whole-archive -o RoomManagementSystem.exe -Wl,--out-implib,libRoomManagementSystem.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\RoomManagementSystem.dir\linkLibs.rsp
