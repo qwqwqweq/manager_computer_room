@@ -5,4 +5,3 @@
 #define TEACHER_FILE "teacher.txt"
 #define COMPUTER_FILE "computer_room.txt"
 #define ORDER_FILE "order.txt"
-

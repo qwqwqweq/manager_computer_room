@@ -4,7 +4,7 @@ Teacher::Teacher() {
 
 }
 
-Tearcher::Teacher(int emp_id, std::string name, std::string pwd) {
+Teacher::Teacher(int emp_id, std::string name, std::string pwd) {
 
 }
 

@@ -1,10 +1,10 @@
 #include "student.hpp"
 
-Student::student() {
+Student::Student() {
 
 }
 
-Student::student(int id, std::string name, std::string pwd) {
+Student::Student(int id, std::string name, std::string pwd) {
 
 }
 
