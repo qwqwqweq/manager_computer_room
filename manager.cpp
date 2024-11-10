@@ -11,6 +11,14 @@ Manager::Manager(std::string name, std::string pwd) {
 	this->m_name = name;
 	this->m_pwd = pwd;
 	this->init_vector();
+	std::ifstream ifs;
+	ifs.open(COMPUTER_FILE, std::ios::in);
+	Computer_room c;
+	while (ifs >> c.m_com_id && ifs >> c.m_max_num) {
+		v_com.push_back(c);
+	}
+	std::cout << "当前机房的数量为: " << v_com.size() << std::endl;
+	ifs.close();
 }
 
 void Manager::open_menu() {
@@ -106,11 +114,17 @@ void Manager::show_person() {
 }
 
 void Manager::show_computer() {
-
+	std::cout << "机房信息如下: " << std::endl;
+	for (auto it = v_com.begin(); it != v_com.end(); it++)
+		std::cout << "机房编号: " << it->m_com_id << " 机房最大容量: " << it->m_max_num << std::endl;
+	system("cls");
 }
 
 void Manager::clean_file() {
-	
+	std::ofstream ofs(ORDER_FILE, std::ios::trunc);
+	ofs.close();
+	std::cout << "清空成功！" << std::endl;
+	system("cls");
 }
 
 void Manager::init_vector() {

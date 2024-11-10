@@ -7,6 +7,31 @@
 #include <fstream>
 #include <cstring>
 
+void student_menu(Identity * &student) {
+	while (true) {
+		student->open_menu();
+
+		Student *stu = (Student *)student;
+
+		int x = 0;
+		std::cin >> x;
+		if (x == 1)
+			stu->apply_order();
+		else if (x == 2)
+			stu->show_my_order();
+		else if (x == 3)
+			stu->show_all_order();
+		else if (x == 4)
+			stu->cancer_order();
+		else {
+			delete student;
+			std::cout << "注销成功" << std::endl;
+			system("cls");
+			return;
+		}
+	}
+}
+
 void manager_menu(Identity * &manager) {
 	while (true) {
 		manager->open_menu();
@@ -67,6 +92,7 @@ void login_in(std::string file_name, int type) {
 				std::cout << "学生验证登录成功" << std::endl;
 				system("cls");
 				person = new Student(id, name, pwd);
+				student_menu(person);
 				return;
 			}
 	} else if (type == 2) {

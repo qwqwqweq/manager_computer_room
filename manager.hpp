@@ -4,6 +4,7 @@
 #include <vector>
 #include "student.hpp"
 #include "Teacher.hpp"
+#include "computer_room.hpp"
 
 class Manager: public Identity {
 public:
@@ -20,4 +21,6 @@ public:
 	std::vector<Teacher> v_tea;
 
 	bool check_repeat(int id, int type);
+
+	std::vector<Computer_room> v_com;
 };

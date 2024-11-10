@@ -1,6 +1,8 @@
 #pragma once
 #include <iostream>
 #include "Identity.hpp"
+#include <vector>
+#include "Computer_room.hpp"
 
 class Student: public Identity {
 public:
@@ -18,4 +20,6 @@ public:
 	void cancer_order();
 
 	int id;
+
+	std::vector<Computer_room> v_com;
 };
