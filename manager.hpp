@@ -1,9 +1,11 @@
 #pragma once
 #include <iostream>
 #include "Identity.hpp"
+#include <vector>
+#include "student.hpp"
+#include "Teacher.hpp"
 
 class Manager: public Identity {
-	std::string m_name, m_pwd;
 public:
 	Manager();
 	Manager(std::string name, std::string pwd);
@@ -12,4 +14,10 @@ public:
 	void show_person();
 	void show_computer();
 	void clean_file();
+	void init_vector();
+
+	std::vector<Student> v_stu;
+	std::vector<Teacher> v_tea;
+
+	bool check_repeat(int id, int type);
 };

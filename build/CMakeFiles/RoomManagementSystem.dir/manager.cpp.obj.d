@@ -142,9 +142,26 @@ CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj: \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/istream \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc \
  D:\study_code\RoomManagementSystem\Identity.hpp \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
+ D:\study_code\RoomManagementSystem\student.hpp \
+ D:\study_code\RoomManagementSystem\Teacher.hpp \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/fstream \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/codecvt.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/fstream.tcc \
- D:\study_code\RoomManagementSystem\global_file.hpp
+ D:\study_code\RoomManagementSystem\global_file.hpp \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/algorithm \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_algo.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/algorithmfwd.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_heap.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uniform_int_dist.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_tempbuf.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ranges_algo.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ranges_algobase.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/glue_algorithm_defs.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/execution_defs.h

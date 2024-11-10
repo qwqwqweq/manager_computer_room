@@ -145,6 +145,11 @@ CMakeFiles/RoomManagementSystem.dir/main.cpp.obj: \
  D:\study_code\RoomManagementSystem\student.hpp \
  D:\study_code\RoomManagementSystem\teacher.hpp \
  D:\study_code\RoomManagementSystem\manager.hpp \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/fstream \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/codecvt.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
