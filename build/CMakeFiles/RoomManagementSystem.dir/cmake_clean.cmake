@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RoomManagementSystem.dir/main.cpp.obj.d"
   "CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj"
   "CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj.d"
+  "CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj"
+  "CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj.d"
   "CMakeFiles/RoomManagementSystem.dir/student.cpp.obj"
   "CMakeFiles/RoomManagementSystem.dir/student.cpp.obj.d"
   "CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj"

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/study_code/RoomManagementSystem/main.cpp" "CMakeFiles/RoomManagementSystem.dir/main.cpp.obj" "gcc" "CMakeFiles/RoomManagementSystem.dir/main.cpp.obj.d"
   "D:/study_code/RoomManagementSystem/manager.cpp" "CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj" "gcc" "CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj.d"
+  "D:/study_code/RoomManagementSystem/order_file.cpp" "CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj" "gcc" "CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj.d"
   "D:/study_code/RoomManagementSystem/student.cpp" "CMakeFiles/RoomManagementSystem.dir/student.cpp.obj" "gcc" "CMakeFiles/RoomManagementSystem.dir/student.cpp.obj.d"
   "D:/study_code/RoomManagementSystem/teacher.cpp" "CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj" "gcc" "CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj.d"
   )

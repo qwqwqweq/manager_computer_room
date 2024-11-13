@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.5)
-set(CMAKE_CXX_COMPILER "E:/mingw64/bin/g++.exe")
+cmake_minimum_required(VERSION 3.20)
+
 project(RoomManagementSystem)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -10,6 +10,7 @@ set(SOURCES
 	student.cpp
 	teacher.cpp
 	manager.cpp
+	order_file.cpp
 )
 
 set(HEADERS
@@ -18,6 +19,8 @@ set(HEADERS
 	teacher.hpp
 	manager.hpp
 	global_file.hpp
+	computer_room.hpp
+	order_file.hpp
 )
 
 include_directories(${CMAKE_SOURCE_DIR})

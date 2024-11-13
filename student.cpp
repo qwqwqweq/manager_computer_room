@@ -1,6 +1,7 @@
 #include "student.hpp"
 #include <fstream>
 #include "global_file.hpp"
+#include "order_file.hpp"
 
 Student::Student() {
 
@@ -98,13 +99,68 @@ void Student::apply_order() {
 }
 
 void Student::show_my_order() {
+	order_file of;
+	if (!of.m_size) {
+		std::cout << "无预约记录" << std::endl;
+		system("cls");
+		return;
+	}
+	for (int i = 0; i < of.m_size; i++)
+		if (atoi(of.m_order_data[i]["stu_id"].c_str()) == this->id) {
+			std::cout << "预约日期： 周" << of.m_order_data[i]["date"];
+			std::cout << " 时段: " << (of.m_order_data[i]["intreval"] == "1" ? "上午" : "下午");
+			std::cout << " 机房: " << of.m_order_data[i]["room_id"];
+			std::string status = " 状态: ";
+			if (of.m_order_data[i]["status"] == "1")
+				status += "审核中";
+			else if (of.m_order_data[i]["status"] == "2")
+				status += "预约成功";
+			else if (of.m_order_data[i]["status"] == "-1")
+				status += "审核未通过，预约失败";
+			else 
+				status += "预约已取消";
+			std::cout << status << std::endl;
+		}
 
+	system("cls");
 }
 
 void Student::show_all_order() {
-
+	order_file of;
+	if (!of.m_size) {
+		std::cout << "无预约记录" << std::endl;
+		system("cls");
+		return;
+	}
+	for (int i = 0; i < of.m_size; i++) {
+		std::cout << i + 1 << "、 ";
+		std::cout << "预约日期： 周" << of.m_order_data[i]["date"];
+		std::cout << " 时段: " << (of.m_order_data[i]["intreval"] == "1" ? "上午" : "下午");
+		std::cout << " 学号： " << of.m_order_data[i]["stu_id"];
+		std::cout << " 姓名： " << of.m_order_data[i]["stu_name"];
+		std::cout << " 机房: " << of.m_order_data[i]["room_id"];
+		std::string status = " 状态: ";
+		if (of.m_order_data[i]["status"] == "1")
+			status += "审核中";
+		else if (of.m_order_data[i]["status"] == "2")
+			status += "预约成功";
+		else if (of.m_order_data[i]["status"] == "-1")
+			status += "审核未通过，预约失败";
+		else 
+			status += "预约已取消";
+		std::cout << status << std::endl;
+	}
+	system("cls");
 }
 
 void Student::cancer_order() {
-	
+	order_file of;
+	if (!of.m_size) {
+		std::cout << "无预约记录" << std::endl;
+		system("cls");
+		return;
+	}
+	std::cout << "审核中或预约成功的记录可行取消，请输入取消的记录" << std::endl;
+
+	std::vector<int> v;
 }

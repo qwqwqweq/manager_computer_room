@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/study_code/RoomManagementSystem/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/RoomManagementSystem.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\RoomManagementSystem.dir\\main.cpp.obj -c D:\\study_code\\RoomManagementSystem\\main.cpp",
+  "file": "D:/study_code/RoomManagementSystem/main.cpp",
+  "output": "CMakeFiles/RoomManagementSystem.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/study_code/RoomManagementSystem/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/RoomManagementSystem.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\RoomManagementSystem.dir\\student.cpp.obj -c D:\\study_code\\RoomManagementSystem\\student.cpp",
+  "file": "D:/study_code/RoomManagementSystem/student.cpp",
+  "output": "CMakeFiles/RoomManagementSystem.dir/student.cpp.obj"
+},
+{
+  "directory": "D:/study_code/RoomManagementSystem/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/RoomManagementSystem.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\RoomManagementSystem.dir\\teacher.cpp.obj -c D:\\study_code\\RoomManagementSystem\\teacher.cpp",
+  "file": "D:/study_code/RoomManagementSystem/teacher.cpp",
+  "output": "CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj"
+},
+{
+  "directory": "D:/study_code/RoomManagementSystem/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/RoomManagementSystem.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\RoomManagementSystem.dir\\manager.cpp.obj -c D:\\study_code\\RoomManagementSystem\\manager.cpp",
+  "file": "D:/study_code/RoomManagementSystem/manager.cpp",
+  "output": "CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj"
+},
+{
+  "directory": "D:/study_code/RoomManagementSystem/build",
+  "command": "E:\\mingw64\\bin\\g++.exe  @CMakeFiles/RoomManagementSystem.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\RoomManagementSystem.dir\\order_file.cpp.obj -c D:\\study_code\\RoomManagementSystem\\order_file.cpp",
+  "file": "D:/study_code/RoomManagementSystem/order_file.cpp",
+  "output": "CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj"
+}
+]

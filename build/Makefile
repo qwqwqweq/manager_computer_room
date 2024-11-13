@@ -176,6 +176,30 @@ manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoomManagementSystem.dir\build.make CMakeFiles/RoomManagementSystem.dir/manager.cpp.s
 .PHONY : manager.cpp.s
 
+order_file.obj: order_file.cpp.obj
+.PHONY : order_file.obj
+
+# target to build an object file
+order_file.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoomManagementSystem.dir\build.make CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj
+.PHONY : order_file.cpp.obj
+
+order_file.i: order_file.cpp.i
+.PHONY : order_file.i
+
+# target to preprocess a source file
+order_file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoomManagementSystem.dir\build.make CMakeFiles/RoomManagementSystem.dir/order_file.cpp.i
+.PHONY : order_file.cpp.i
+
+order_file.s: order_file.cpp.s
+.PHONY : order_file.s
+
+# target to generate assembly for a file
+order_file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RoomManagementSystem.dir\build.make CMakeFiles/RoomManagementSystem.dir/order_file.cpp.s
+.PHONY : order_file.cpp.s
+
 student.obj: student.cpp.obj
 .PHONY : student.obj
 
@@ -239,6 +263,9 @@ help:
 	@echo ... manager.obj
 	@echo ... manager.i
 	@echo ... manager.s
+	@echo ... order_file.obj
+	@echo ... order_file.i
+	@echo ... order_file.s
 	@echo ... student.obj
 	@echo ... student.i
 	@echo ... student.s
