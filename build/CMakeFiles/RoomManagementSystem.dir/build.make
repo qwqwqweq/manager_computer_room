@@ -73,75 +73,75 @@ CMakeFiles/RoomManagementSystem.dir/main.cpp.obj: CMakeFiles/RoomManagementSyste
 CMakeFiles/RoomManagementSystem.dir/main.cpp.obj: D:/study_code/RoomManagementSystem/main.cpp
 CMakeFiles/RoomManagementSystem.dir/main.cpp.obj: CMakeFiles/RoomManagementSystem.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\study_code\RoomManagementSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RoomManagementSystem.dir/main.cpp.obj"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RoomManagementSystem.dir/main.cpp.obj -MF CMakeFiles\RoomManagementSystem.dir\main.cpp.obj.d -o CMakeFiles\RoomManagementSystem.dir\main.cpp.obj -c D:\study_code\RoomManagementSystem\main.cpp
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RoomManagementSystem.dir/main.cpp.obj -MF CMakeFiles\RoomManagementSystem.dir\main.cpp.obj.d -o CMakeFiles\RoomManagementSystem.dir\main.cpp.obj -c D:\study_code\RoomManagementSystem\main.cpp
 
 CMakeFiles/RoomManagementSystem.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RoomManagementSystem.dir/main.cpp.i"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study_code\RoomManagementSystem\main.cpp > CMakeFiles\RoomManagementSystem.dir\main.cpp.i
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study_code\RoomManagementSystem\main.cpp > CMakeFiles\RoomManagementSystem.dir\main.cpp.i
 
 CMakeFiles/RoomManagementSystem.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RoomManagementSystem.dir/main.cpp.s"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study_code\RoomManagementSystem\main.cpp -o CMakeFiles\RoomManagementSystem.dir\main.cpp.s
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study_code\RoomManagementSystem\main.cpp -o CMakeFiles\RoomManagementSystem.dir\main.cpp.s
 
 CMakeFiles/RoomManagementSystem.dir/student.cpp.obj: CMakeFiles/RoomManagementSystem.dir/flags.make
 CMakeFiles/RoomManagementSystem.dir/student.cpp.obj: CMakeFiles/RoomManagementSystem.dir/includes_CXX.rsp
 CMakeFiles/RoomManagementSystem.dir/student.cpp.obj: D:/study_code/RoomManagementSystem/student.cpp
 CMakeFiles/RoomManagementSystem.dir/student.cpp.obj: CMakeFiles/RoomManagementSystem.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\study_code\RoomManagementSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RoomManagementSystem.dir/student.cpp.obj"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RoomManagementSystem.dir/student.cpp.obj -MF CMakeFiles\RoomManagementSystem.dir\student.cpp.obj.d -o CMakeFiles\RoomManagementSystem.dir\student.cpp.obj -c D:\study_code\RoomManagementSystem\student.cpp
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RoomManagementSystem.dir/student.cpp.obj -MF CMakeFiles\RoomManagementSystem.dir\student.cpp.obj.d -o CMakeFiles\RoomManagementSystem.dir\student.cpp.obj -c D:\study_code\RoomManagementSystem\student.cpp
 
 CMakeFiles/RoomManagementSystem.dir/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RoomManagementSystem.dir/student.cpp.i"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study_code\RoomManagementSystem\student.cpp > CMakeFiles\RoomManagementSystem.dir\student.cpp.i
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study_code\RoomManagementSystem\student.cpp > CMakeFiles\RoomManagementSystem.dir\student.cpp.i
 
 CMakeFiles/RoomManagementSystem.dir/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RoomManagementSystem.dir/student.cpp.s"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study_code\RoomManagementSystem\student.cpp -o CMakeFiles\RoomManagementSystem.dir\student.cpp.s
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study_code\RoomManagementSystem\student.cpp -o CMakeFiles\RoomManagementSystem.dir\student.cpp.s
 
 CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj: CMakeFiles/RoomManagementSystem.dir/flags.make
 CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj: CMakeFiles/RoomManagementSystem.dir/includes_CXX.rsp
 CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj: D:/study_code/RoomManagementSystem/teacher.cpp
 CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj: CMakeFiles/RoomManagementSystem.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\study_code\RoomManagementSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj -MF CMakeFiles\RoomManagementSystem.dir\teacher.cpp.obj.d -o CMakeFiles\RoomManagementSystem.dir\teacher.cpp.obj -c D:\study_code\RoomManagementSystem\teacher.cpp
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RoomManagementSystem.dir/teacher.cpp.obj -MF CMakeFiles\RoomManagementSystem.dir\teacher.cpp.obj.d -o CMakeFiles\RoomManagementSystem.dir\teacher.cpp.obj -c D:\study_code\RoomManagementSystem\teacher.cpp
 
 CMakeFiles/RoomManagementSystem.dir/teacher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RoomManagementSystem.dir/teacher.cpp.i"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study_code\RoomManagementSystem\teacher.cpp > CMakeFiles\RoomManagementSystem.dir\teacher.cpp.i
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study_code\RoomManagementSystem\teacher.cpp > CMakeFiles\RoomManagementSystem.dir\teacher.cpp.i
 
 CMakeFiles/RoomManagementSystem.dir/teacher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RoomManagementSystem.dir/teacher.cpp.s"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study_code\RoomManagementSystem\teacher.cpp -o CMakeFiles\RoomManagementSystem.dir\teacher.cpp.s
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study_code\RoomManagementSystem\teacher.cpp -o CMakeFiles\RoomManagementSystem.dir\teacher.cpp.s
 
 CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj: CMakeFiles/RoomManagementSystem.dir/flags.make
 CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj: CMakeFiles/RoomManagementSystem.dir/includes_CXX.rsp
 CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj: D:/study_code/RoomManagementSystem/manager.cpp
 CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj: CMakeFiles/RoomManagementSystem.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\study_code\RoomManagementSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj -MF CMakeFiles\RoomManagementSystem.dir\manager.cpp.obj.d -o CMakeFiles\RoomManagementSystem.dir\manager.cpp.obj -c D:\study_code\RoomManagementSystem\manager.cpp
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RoomManagementSystem.dir/manager.cpp.obj -MF CMakeFiles\RoomManagementSystem.dir\manager.cpp.obj.d -o CMakeFiles\RoomManagementSystem.dir\manager.cpp.obj -c D:\study_code\RoomManagementSystem\manager.cpp
 
 CMakeFiles/RoomManagementSystem.dir/manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RoomManagementSystem.dir/manager.cpp.i"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study_code\RoomManagementSystem\manager.cpp > CMakeFiles\RoomManagementSystem.dir\manager.cpp.i
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study_code\RoomManagementSystem\manager.cpp > CMakeFiles\RoomManagementSystem.dir\manager.cpp.i
 
 CMakeFiles/RoomManagementSystem.dir/manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RoomManagementSystem.dir/manager.cpp.s"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study_code\RoomManagementSystem\manager.cpp -o CMakeFiles\RoomManagementSystem.dir\manager.cpp.s
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study_code\RoomManagementSystem\manager.cpp -o CMakeFiles\RoomManagementSystem.dir\manager.cpp.s
 
 CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj: CMakeFiles/RoomManagementSystem.dir/flags.make
 CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj: CMakeFiles/RoomManagementSystem.dir/includes_CXX.rsp
 CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj: D:/study_code/RoomManagementSystem/order_file.cpp
 CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj: CMakeFiles/RoomManagementSystem.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\study_code\RoomManagementSystem\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj -MF CMakeFiles\RoomManagementSystem.dir\order_file.cpp.obj.d -o CMakeFiles\RoomManagementSystem.dir\order_file.cpp.obj -c D:\study_code\RoomManagementSystem\order_file.cpp
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RoomManagementSystem.dir/order_file.cpp.obj -MF CMakeFiles\RoomManagementSystem.dir\order_file.cpp.obj.d -o CMakeFiles\RoomManagementSystem.dir\order_file.cpp.obj -c D:\study_code\RoomManagementSystem\order_file.cpp
 
 CMakeFiles/RoomManagementSystem.dir/order_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RoomManagementSystem.dir/order_file.cpp.i"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study_code\RoomManagementSystem\order_file.cpp > CMakeFiles\RoomManagementSystem.dir\order_file.cpp.i
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study_code\RoomManagementSystem\order_file.cpp > CMakeFiles\RoomManagementSystem.dir\order_file.cpp.i
 
 CMakeFiles/RoomManagementSystem.dir/order_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RoomManagementSystem.dir/order_file.cpp.s"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study_code\RoomManagementSystem\order_file.cpp -o CMakeFiles\RoomManagementSystem.dir\order_file.cpp.s
+	E:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study_code\RoomManagementSystem\order_file.cpp -o CMakeFiles\RoomManagementSystem.dir\order_file.cpp.s
 
 # Object files for target RoomManagementSystem
 RoomManagementSystem_OBJECTS = \

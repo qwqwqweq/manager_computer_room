@@ -163,4 +163,37 @@ void Student::cancer_order() {
 	std::cout << "审核中或预约成功的记录可行取消，请输入取消的记录" << std::endl;
 
 	std::vector<int> v;
+	int idx = 1;
+	for (int i = 0; i < of.m_size; i++) 
+		if (of.m_order_data[i]["status"] == "1" || of.m_order_data[i]["status"] == "2") {
+			v.push_back(i);
+			std::cout << idx++ << "、 ";
+			std::cout << "预约日期: 周" << of.m_order_data[i]["date"];
+			std::cout << " 时段: " << (of.m_order_data[i]["intreval"] == "1" ? "上午" : "下午");
+			std::cout << " 机房: " << of.m_order_data[i]["room_id"];
+			std::string status = " 状态: ";
+			if (of.m_order_data[i]["status"] == "1")
+				status += "审核中";
+			else if (of.m_order_data[i]["status"] == "2")
+				status += "预约成功";
+			std::cout << status << std::endl;
+		}
+
+	std::cout << "请输入取消的记录，0代表返回" << std::endl;
+	int x = 0;
+	while (true) {
+		std::cin >> x;
+		if (x >= 0 && x <= v.size()) {
+			if (!x)
+				break;
+			else {
+				of.m_order_data[v[x - 1]]["status"] = "0";
+				of.update_order();
+				std::cout << "预约已取消" << std::endl;
+				break;
+			}
+		}
+		std::cout << "输入有误，重新输入" << std::endl;
+	}
+	system("cls");
 }
