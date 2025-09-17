@@ -1,3 +1,0 @@
-D:/study_code/RoomManagementSystem/build/CMakeFiles/RoomManagementSystem.dir
-D:/study_code/RoomManagementSystem/build/CMakeFiles/edit_cache.dir
-D:/study_code/RoomManagementSystem/build/CMakeFiles/rebuild_cache.dir
